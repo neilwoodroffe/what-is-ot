@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>What is OT?</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<style>
+body{
+margin-left: 10px;
+margin-right: 10px;
+}
+h1, h3, h4, p {text-align: center;}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  /*color: black;*/
+  /*font-family: monospace;*/
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /*border-right: .05em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /*letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .9s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+/*@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+} */
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-o-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  -o-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  -o-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  -o-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+</style>
+</head>
+<body>
+
+<div class="typewriter">
+<h1>What is Occupational Therapy?</h1>
+</div>
+<br>
+<div class="fade-in three">
+<h3>Introducing the Mascots of Occupational Therapy</h3>
+<br>
+<h4><b>Dot</b>: The importance of doing occupations or everyday activities</h4>
+<p><img src="images/dot.png" width="320" height="320"></p>
+<!-- Button trigger modal -->
+<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Learn more about Dot
+</button></p>
+</div>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><img src="images/dot.png" width="100" height="100"><b>&nbsp&nbspDot</b>: The importance of doing occupations or everyday activities</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        - In life we perform many occupations or everyday activities
+	<br>
+	- These occupations can be broken into 3 main areas: self care, work and leisure
+	<br>
+	- Unfortunately people with disabilities or injuries may have difficultes performing their everyday activities
+	<br>
+	- Occupational Therapists help people to regain function, so they can continue to perform their meaningful occupations
+	<br>
+	- Occupational Therapists use specific assessments and activity analysis to assess someone's capacity to perform occupations
+	<br>
+	- They also use activity based therapy and specialised interventions to help people to regain function
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="fade-in three">
+<h4><b>Scot</b>: The science behind Occupational Therapy</h4>
+<p><img src="images/scot.png" width="320" height="320"></p>
+<!-- Button trigger modal -->
+<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter2">
+  Learn more about Scot
+</button></p>
+</div>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><img src="images/scot.png" width="100" height="100"><b>&nbsp&nbspScot</b>: The science behind Occupational Therapy</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        - The science behind Occupational Therapy is called Occupational Science
+	<br>
+	- Occupational Science is the science of human occupation or activity
+	<br>
+	- Occupational Therapists are also trained in medical, rehabilitative, social and behavioural sciences
+	<br>
+	- Occupational Therapy assessment and interventions are evidence based
+	<br>
+	- Assessment and interventions may address sensory, perceptual, neuro-musculoskeletal, motor, cognitive and/or psychosocial performance components
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="fade-in three">
+<h4><b>Robot</b>: Adapt, Modify and Assist</h4>
+<p><img src="images/robot.png" width="294.5" height="320"></p>
+<!-- Button trigger modal -->
+<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter3">
+  Learn more about Robot
+</button></p>
+</div>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><img src="images/robot.png" width="92" height="100"><b>&nbsp&nbspRobot</b>: Adapt, Modify and Assist</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        - The activity may need to be adapted to help the person to perform the activity
+	<br>
+	- The environment may need to be modified to help the person to perform an activity
+	<br>
+	- Assistive technology or aid may be required by the person to perform an activity
+	<br>
+	- Assistance from others may be required by the person to perform an activity 
+	<br>
+	- Occupational Therapists are specialists in adapting the activity, modifying the environment, prescibing assistive technology and organising appropriate assistance from others
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="fade-in three">
+<p>Mascots of Occupational Therapy - Dot, Scot and Robot by Neil Woodroffe, Occupational Therapist (2018). If you have any questions please contact <a href="mailto:neilowoodroffe@hotmail.com?Subject=re:%20Dot, Scot and Robot" target="_top">neilowoodroffe@hotmail.com</a></p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html> 
