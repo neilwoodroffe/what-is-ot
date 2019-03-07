@@ -14,7 +14,7 @@
    viewBox="0 0 251.35454 264.58335"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (d244b95, 2018-08-02)"
+   inkscape:version="0.92.4 (33fec40, 2019-01-16)"
    sodipodi:docname="MMOT.svg">
   <defs
      id="defs2" />
@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.50384443"
      inkscape:cx="190.47366"
-     inkscape:cy="423.09839"
+     inkscape:cy="502.48797"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -74,12 +74,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58334923px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458374"
-       x="7.121273"
+       x="8.6966629"
        y="45.550407"
        id="text20"><tspan
          sodipodi:role="line"
          id="tspan18"
-         x="7.121273"
+         x="8.6966629"
          y="45.550407"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458374">Mascots Model of Occupational Therapy</tspan></text>
     <circle
@@ -288,20 +288,18 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889618px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458374"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889618px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458374"
        x="126.81952"
-       y="124.99926"
+       y="119.22283"
        id="text1012"><tspan
          sodipodi:role="line"
-         id="tspan1010"
-         x="126.81952"
-         y="124.99926"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889618px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458374">Maintain or Restore</tspan><tspan
+         id="tspan3775"
+         x="127.67804"
+         y="119.22283">Maintain, Restore or </tspan><tspan
          sodipodi:role="line"
+         id="tspan3777"
          x="126.81952"
-         y="131.17288"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889618px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458374"
-         id="tspan1014">Level of Function</tspan></text>
+         y="125.39645">Improve Level of Function</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889618px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458374"
